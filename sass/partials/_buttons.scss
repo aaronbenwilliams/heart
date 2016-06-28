@@ -1,0 +1,10 @@
+/* Buttons */
+
+.btn { text-transform: uppercase; color: $neutral-one; padding: 1em 1.5em; }
+.btn-inline { margin-right: 1em; }
+
+.btn-primary { background-color: $accent-blue; 
+	&:hover { background-color: $accent-pink; color: $neutral-one; }
+}
+
+input[type="submit"] { width: auto; border: none; cursor: pointer; font-family: 'Open Sans', Helvetica, sans-serif; font-weight: 400; margin-top: 1em; padding: 1em 1.5em; }

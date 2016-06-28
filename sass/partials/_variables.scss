@@ -1,0 +1,23 @@
+/* Colours */
+
+$neutral-one:			#fff;
+$neutral-two:			#f2f2f2;
+$neutral-three:			#e5e5e5;
+$neutral-four:			#bfbfbf;
+$neutral-five:			#7f7f7f;
+$neutral-six:			#333;
+$accent-pink:			#ff358c;
+$accent-blue:			#01b0f0;
+$accent-green:			#aeee00;
+
+/* Font settings */
+
+body { font-family: 'Open Sans', sans-serif; font-weight: 400; font-size:100%; line-height:1.125em; }
+h1,h2,h3, .price { font-family: 'Rancho', cursive; }
+a { text-decoration: none; color: $accent-blue; 
+	&:hover { color: $accent-pink }
+}
+
+/* Hover fades */
+
+a, input { -o-transition:.5s; -ms-transition:.5s; -moz-transition:.5s; -webkit-transition:.5s; transition:.5s; }
