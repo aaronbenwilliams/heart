@@ -1,25 +1,9 @@
 /* Layout and spacing */
 
-header { background: url('../img/bkg-header.jpg'); background-size: cover;
-	.logo { margin: 3em 0; }
-}
-
-.intro { padding-bottom: 5em; }
-
-.keypoints { padding-bottom: 3em; }
-
-.passport { padding: 2em 0 4em; background: url('../img/bkg-passport.jpg'); background-size: cover; }
-
-footer { padding: 2em 0 0; background-color: $neutral-six; color: white; }
-
-@media screen and (max-width: 800px) {
-	header {
-		.logo img { width: 350px; }
+footer { background: $grey; padding-top: 40px;
+	.footer-nav { font-size: .9em;
+		li { padding-bottom: 10px; }
+		a { color: $brown-five; }
 	}
-}
-
-@media screen and (max-width: 600px) {
-	footer {
-		nav { display: none; }
-	}
+	.copyright { color: $brown-five; font-size: .7em; padding-top: 30px; }
 }

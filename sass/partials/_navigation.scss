@@ -1,26 +1,30 @@
 /* Navigation */
 
-nav { font-weight: 300; text-transform: uppercase;
-	ul { margin-top: 1em;
-		li { display: inline; padding-right: 1.3em;
-			&:last-child { padding-right: 0; }
-			a { color: $neutral-six; 
-				&:hover { color: $accent-pink; }
-			}
-		}
-		.active a { color: $accent-blue; font-weight: 400;
-			&:hover { color: $accent-blue; cursor: default; }
+.mini-links { 
+	li { padding-right: 10px; display: inline-block; border-right: 1px solid $text-primary; line-height: .7em;
+		&:last-child { border-right: none; padding: 0 0 0 8px; }
+	}
+	a { font-size: .8em; color: $text-primary;
+		&:hover { color: $primary-red; }
+	}
+}
+
+.social { position: absolute; right: 20px; top: 20px;
+	li { display: inline-block; font-size: 1.25em; padding-right: 5px; }
+	a { color: $text-primary;
+		&:hover { color: $primary-red; }
+	}
+}
+
+nav { 
+	a { color: $text-primary; 
+		&:hover { color: $primary-red; }
+	}
+	.main-nav { font-size: 1.7em; font-weight: 100; margin-top: 240px;
+		li { padding-bottom: 30px; 
+			&:last-child { padding-bottom: 0; }
 		}
 	}
 }
 
-footer {
-	nav {
-		ul {
-			li { display: block; padding: 0 0 .5em;
-				&:last-child { padding-bottom: 0; }
-				a { color: $neutral-one;} 
-			}
-		}
-	}
-}
+.rowtest { height: auto; }

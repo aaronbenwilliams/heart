@@ -1,12 +1,12 @@
 /* Form Styling */
 
-label, input, textarea { display: block; width: 97%; font-size: 1em; }
-
-label { padding: .5em 0 .2em; }
-
-input, textarea { border: 2px solid $neutral-three; padding: .5em; font-weight: 300;
-	&:focus { outline: none; border-color: $accent-green; }
+form { color: $brown-five;
+	legend { font-size: 1em; text-align: right; 
+		i { color: $brown-two; }
+	}
+	input[type=text] { float: right; clear: both; background: $grey-two; border: 1px solid $brown-one; text-align: right; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-weight: 300; font-size: .9em; color: $brown-five; padding: 7px; margin-top: 20px; min-width: 300px;}
+	.input-second { margin-top: 10px !important; }
+	input[type=submit] { float: right; clear: both; font-size: .7em; text-transform: uppercase; color: $brown-five; background: $secondary-red; 
+		&:hover { background: $primary-red; }
+	}
 }
-
-input[type="submit"]:focus { background: $accent-pink; }
-

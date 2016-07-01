@@ -1,10 +1,33 @@
 /* Buttons */
 
-.btn { text-transform: uppercase; color: $neutral-one; padding: 1em 1.5em; }
+.btn { text-transform: uppercase;  padding: 1em 1.5em; }
 .btn-inline { margin-right: 1em; }
 
-.btn-primary { background-color: $accent-blue; 
-	&:hover { background-color: $accent-pink; color: $neutral-one; }
+.btn-primary { 
+	&:hover {  }
+}
+
+.bigbutton-hire { font-size: 1.5em; background: $brown-one; width: 100%; display: block; text-align: center; padding: 25px 0; color: $brown-four; 
+	&:hover { background: $brown-two; color: $brown-four; }
+}
+
+.button-list { background: $brown-three;
+	li { display: inline-block; width: 33%; }
+}
+
+.bigbutton-headingley { font-size: 1.1em; background: $brown-five; width: 101%; display: inline-block; text-align: center; padding: 15px 0 17px; color: $text-primary; 
+	&:hover { background: $brown-two; color: $text-primary; }
+	img { vertical-align: -15px; padding-right: 10px; }
+}
+
+.bigbutton-access { font-size: 1.1em; background: $brown-four; width: 101%; display: inline-block; text-align: center; padding: 29px 0 28px; color: $text-primary; 
+	&:hover { background: $brown-two; color: $text-primary; }
+	i { color: $brown-one; }
+}
+
+.bigbutton-getinvolved { font-size: 1.1em; background: $brown-three; width: 101%; display: inline-block; text-align: center; padding: 15px 0 16px; color: $text-primary; 
+	&:hover { background: $brown-two; color: $text-primary; }
+	img { vertical-align: -15px; padding-right: 10px; }
 }
 
 input[type="submit"] { width: auto; border: none; cursor: pointer; font-family: 'Open Sans', Helvetica, sans-serif; font-weight: 400; margin-top: 1em; padding: 1em 1.5em; }

@@ -1,21 +1,25 @@
 /* Colours */
 
-$neutral-one:			#fff;
-$neutral-two:			#f2f2f2;
-$neutral-three:			#e5e5e5;
-$neutral-four:			#bfbfbf;
-$neutral-five:			#7f7f7f;
-$neutral-six:			#333;
-$accent-pink:			#ff358c;
-$accent-blue:			#01b0f0;
-$accent-green:			#aeee00;
+$primary-red:			#d71921;
+$secondary-red:			#981b1e;
+$brown-one:				#b3aa94;
+$brown-two:				#c9c3b4;
+$brown-three:			#dcd7cd;
+$brown-four:			#f0eeea;
+$brown-five:			#f9f8f7;
+$grey:					#505050;
+$grey-two:				#616161;
+
+$text-primary:			#333;
+$text-secondary:		#b3aa94;
+$text-inverted:			#f7f6f4;
+
 
 /* Font settings */
 
-body { font-family: 'Open Sans', sans-serif; font-weight: 400; font-size:100%; line-height:1.125em; }
-h1,h2,h3, .price { font-family: 'Rancho', cursive; }
-a { text-decoration: none; color: $accent-blue; 
-	&:hover { color: $accent-pink }
+body { font-family: 'Open Sans', sans-serif; font-weight: 300; font-size:100%; line-height:1.125em; }
+a { text-decoration: none; color: $primary-red; 
+	&:hover { color: $secondary-red; }
 }
 
 /* Hover fades */
